@@ -17,7 +17,7 @@ function Tabs(){
      <Tab.Navigator>
       <Tab.Screen name="Feed" component={Home}/>
       <Tab.Screen name="Perfil" component={Perfil}/>
-      <Tab.Screen name="Contato" component={Contato}/>
+      <Tab.Screen name="Contato" component={Contato} initialParams= {nome2 = 'Fernando'}/>
      </Tab.Navigator>
   )
 }
